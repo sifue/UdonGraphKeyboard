@@ -4,12 +4,12 @@ Udon Sharp を使わない。VRChat Udon のみで動作する、 PC と Oculus 
 ![動作イメージ](./images/0.jpg)
 
 # インストール方法と使い方
-VRChat SDK3 の Worlds (`VRCSDK3-WORLD-2020.11.16.12.43_Public.unitypackage`等) を comstom package としてインストールした Unity(指定されたcurrent versionのもの) にて、このリポジトリ内にある `UdonGraphKeyboard-202011221401.unitypackage` を comstom package としてインポートすることで利用できます。使う場合にはUdonGraphKeyboardフォルダ内にあるPrefabとなっている `UdonGraphKeyboard.prefab` を利用ください。
+VRChat SDK3 の Worlds (`VRCSDK3-WORLD-2020.11.16.12.43_Public.unitypackage`等) を comstom package としてインストールした Unity(指定されたcurrent versionのもの) にて、このリポジトリ内にある `UdonGraphKeyboard-202011221428.unitypackage` を comstom package としてインポートすることで利用できます。使う場合にはUdonGraphKeyboardフォルダ内にあるPrefabとなっている `UdonGraphKeyboard.prefab` を利用ください。
 
 ![インポート](./images/1.jpg)
 
 
-実際の動作は、`UdonGraphKeyboardSampleScene` をサンプルシーンとして用意してあるためそれを利用してください。インポート後、LayersのSetupとColision MatrixのSetupをすることで使えるようになります。
+実際の動作は、インポート後自身で作成したシーンにPrefabを導入し、LayersのSetupとColision MatrixのSetupをすることで使えるようになります。
 
 ![インポート後](./images/2.jpg)
 
